@@ -30,7 +30,8 @@ map<string, string> read_config (string file, bool ignore_empty = true)
 	while (getline(in, line)) 
 	{
 		strip(line);
-		if (line.empty() || line[0] == '#') continue;
+		if (line.empty() || line[0] == '#') 
+			continue;
 		vector<string> kp;
 		size_t pos = line.find('=');
 		if (pos == string::npos) 
