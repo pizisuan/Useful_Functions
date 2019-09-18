@@ -1,2 +1,2 @@
-# Useful_Functions
-Some useful functions in daily life
+# 日常工作中积累的实用函数（更新）
+语言主要包括：C++, Python
