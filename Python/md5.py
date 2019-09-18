@@ -15,9 +15,9 @@ import hashlib
 
 def generate_md5(input_str):
     """
-    根据地址获取id值-----MD5加密算法
-    :param address: 输入地址
-    :return: id值
+    生成给定字符串的MD5加密值
+    :param input_str: 输入字符串
+    :return: 加密值
     """
 
     m2 = hashlib.md5()
@@ -26,6 +26,6 @@ def generate_md5(input_str):
 
 
 if __name__ == "__main__":
-    address = "深圳市软件产业基地"
-    md5 = get_md5(address)
-    print(md5)
+    input_str = "深圳市软件产业基地"
+    out_str = get_md5(input_str)
+    print(out_str)
